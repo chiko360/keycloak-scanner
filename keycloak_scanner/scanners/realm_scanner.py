@@ -5,7 +5,7 @@ from keycloak_scanner.scan_base.scanner import Scanner
 from keycloak_scanner.scan_base.types import Realm
 from keycloak_scanner.scan_base.wrap import WrapperTypes
 
-URL_PATTERN = '{}/auth/realms/{}'
+URL_PATTERN = '{}/realms/{}'
 
 
 class RealmScanner(Scanner[Realm]):
